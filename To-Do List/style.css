@@ -1,0 +1,83 @@
+body{
+    background: linear-gradient(rgb(192, 55, 55), rgb(35, 106, 213));
+    height: 650px;
+}
+.container{
+    width: 100%;
+    max-width: 540px;
+    background-color: white;
+    margin: 100px auto 40px;
+    padding: 30px 30px 30px;
+    border-radius: 10px;
+}
+
+.container h1{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container img{
+    width: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 40px;
+    background-color: rgb(230, 230, 230);
+}
+
+input{
+    flex: 1;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding: 10px;
+    
+}
+
+button{
+    border: none;
+    outline: none;
+    background: #ff5945;
+    padding: 16px 50px;
+    border-radius: 30px;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+}
+
+ul li{
+    list-style: none;
+    font-size: larger;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li.checked{
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+.container ul li span{
+    position: absolute;
+    right:0px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: larger;
+    border-radius: 50px;
+}
+.container ul li span:hover{
+    background-color: #dddddd;
+}
+
